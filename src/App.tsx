@@ -54,8 +54,8 @@ const i18nProvider = polyglotI18nProvider(
       }
 
       // Always fallback on english
-      //return englishMessages;
-      return frenchMessages;
+      return englishMessages;
+      //return frenchMessages;
   },
   'en',
   [
