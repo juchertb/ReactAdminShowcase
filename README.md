@@ -25,10 +25,10 @@ You'll find an `.env` file at the project root that includes a `VITE_JSON_SERVER
 
 The application also fetches the orders data from the "Fake Data Generator for retail" at https://www.npmjs.com/package/data-generator-retailorders to render the graph on the Dashboard.
 
-<img src="ReactAdminShowcase-Dashboard.png" width=75% height=75% style="margin-top:10px;margin-bottom:10px">
-<img src="ReactAdminShowcase-Users.png" width=75% height=75% style="margin-top:10px;margin-bottom:10px">
-<img src="ReactAdminShowcase-User.png" width=75% height=75% style="margin-top:10px;margin-bottom:10px">
-<img src="ReactAdminShowcase-Posts.png" width=75% height=75% style="margin-top:10px;margin-bottom:10px">
+<img src="ReactAdminShowcase-Dashboard.png" width=100% height=100% style="margin-top:10px;margin-bottom:10px">
+<img src="ReactAdminShowcase-Users.png" width=100% height=100% style="margin-top:10px;margin-bottom:10px">
+<img src="ReactAdminShowcase-User.png" width=100% height=100% style="margin-top:10px;margin-bottom:10px">
+<img src="ReactAdminShowcase-Posts.png" width=100% height=100% style="margin-top:10px;margin-bottom:10px">
 
 ## Installation
 
