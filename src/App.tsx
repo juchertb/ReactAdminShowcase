@@ -40,7 +40,7 @@ import ReviewsIcon from '@mui/icons-material/Reviews';
 
 import { authProvider } from "./authProvider";
 import englishMessages from './i18n/en';
-import frenchMessages from './i18n/fr';
+//import frenchMessages from './i18n/fr';
 import { themes, ThemeName } from './themes/themes';
 
 import invoices from './invoices';
@@ -52,10 +52,8 @@ const i18nProvider = polyglotI18nProvider(
       if (locale === 'fr') {
           return import('./i18n/fr').then(messages => messages.default);
       }
-
       // Always fallback on english
       return englishMessages;
-      //return frenchMessages;
   },
   'en',
   [

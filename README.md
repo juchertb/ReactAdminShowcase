@@ -1,6 +1,8 @@
 # ReactAdminShowcase
 
-Single Page React Application (SPA) written in Typescript that uses the React-Admin framework (https://marmelab.com/react-admin/Tutorial.html).
+Single Page React Application (SPA) written in Typescript that uses the React-Admin framework (https://marmelab.com/react-admin/Tutorial.html) and the Material UI component library. Material UI is an open-source React component library that implements Google's Material Design (https://mui.com/material-ui/getting-started/).
+
+The line chart component on the dashboard is from Recharts (https://recharts.org/en-US/guide).
 
 A demo version of the application is available at https://juchertb.github.io/ReactAdminShowcase
 
