@@ -40,10 +40,12 @@ import ReviewsIcon from '@mui/icons-material/Reviews';
 
 import { authProvider } from "./authProvider";
 import englishMessages from './i18n/en';
+import frenchMessages from './i18n/fr';
 import { themes, ThemeName } from './themes/themes';
 
 import invoices from './invoices';
 import { Dashboard } from './dashboard/Dashboard';
+//import frenchMessages from 'ra-language-french';
 
 const i18nProvider = polyglotI18nProvider(
   locale => {
@@ -52,7 +54,8 @@ const i18nProvider = polyglotI18nProvider(
       }
 
       // Always fallback on english
-      return englishMessages;
+      //return englishMessages;
+      return frenchMessages;
   },
   'en',
   [
@@ -65,7 +68,7 @@ const store = localStorageStore(undefined, 'ECommerce');
 
 export const App = () => {
 
-  const [themeName] = useStore<ThemeName>('themeName', 'soft');
+  const [themeName] = useStore<ThemeName>('themeName', 'house');
   const lightTheme = themes.find(theme => theme.name === themeName)?.light;
   const darkTheme = themes.find(theme => theme.name === themeName)?.dark;
 

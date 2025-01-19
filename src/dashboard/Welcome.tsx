@@ -48,7 +48,7 @@ const Welcome = () => {
                         </Button>
                         <Button
                             variant="contained"
-                            href="https://github.com/marmelab/react-admin/tree/master/examples/demo"
+                            href="https://github.com/juchertb/ReactAdminShowcase"
                             startIcon={<CodeIcon />}
                         >
                             {translate('pos.dashboard.welcome.demo_button')}
